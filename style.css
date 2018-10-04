@@ -29,7 +29,21 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 3;
     color: rgb(0, 0, 0);
-    font-size: 48pt;
+    font-size: 40pt;
+    font-family: 'Playfair Display', sans-serif;
+  
+    background-image: linear-gradient(120deg, rgb(28, 33, 104) 0%, rgb(78, 165, 252) 50%, rgb(28, 33, 104) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease-in;        
+}
+h2 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: rgb(0, 0, 0);
+    font-size: 35pt;
     font-family: 'Playfair Display', sans-serif;
   
     background-image: linear-gradient(120deg, rgb(28, 33, 104) 0%, rgb(78, 165, 252) 50%, rgb(28, 33, 104) 100%);

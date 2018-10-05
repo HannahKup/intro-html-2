@@ -28,7 +28,7 @@ h1 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 40pt;
     font-family: 'Playfair Display', sans-serif;
   
@@ -42,7 +42,7 @@ h2 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 35pt;
     font-family: 'Playfair Display', sans-serif;
   
@@ -61,6 +61,15 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 50px;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(255, 255, 255);
 }
 
 ul {
